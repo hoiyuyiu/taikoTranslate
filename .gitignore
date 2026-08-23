@@ -1,0 +1,9 @@
+# 仓库只包含脚本运行必需文件，其余全部排除
+*
+!.gitignore
+!README.md
+!taiko.user.js
+!dict/
+!dict/*.js
+!images/
+!images/logo-zh.png
