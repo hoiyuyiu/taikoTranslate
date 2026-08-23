@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         太鼓之达人官网/相关页汉化
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0.20260823
+// @version      0.1.0.260823.2203
 // @description  支持云端词库，完美兼容片假名终结者，提供页面一键刷新与切换功能
 // @author       Gemini
 // @icon         https://raw.githubusercontent.com/hoiyuyiu/taikoTranslate/main/images/taiko.ico
