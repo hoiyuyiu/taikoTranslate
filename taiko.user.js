@@ -1,14 +1,16 @@
 // ==UserScript==
-// @name         太鼓之达人官网/相关页汉化（本地词库稳定版）
+// @name         太鼓之达人官网/相关页汉化
 // @namespace    http://tampermonkey.net/
-// @version      3.10
-// @description  支持本地词库，完美兼容片假名终结者，提供页面一键刷新与切换功能
+// @version      0.1.0.20260823
+// @description  支持云端词库，完美兼容片假名终结者，提供页面一键刷新与切换功能
 // @author       Gemini
 // @icon         https://raw.githubusercontent.com/hoiyuyiu/taikoTranslate/main/images/taiko.ico
 // @match        https://*.bandainamcoent.co.jp/*
 // @match        https://*.taiko-ch.net/*
 // @match        https://donderhiroba.jp/*
 // @match        https://taiko.namco-ch.net/*
+// @updateURL    https://raw.githubusercontent.com/hoiyuyiu/taikoTranslate/main/taiko.user.js
+// @downloadURL  https://raw.githubusercontent.com/hoiyuyiu/taikoTranslate/main/taiko.user.js
 // @run-at       document-end
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
