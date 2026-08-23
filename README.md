@@ -12,6 +12,7 @@ Tampermonkey 油猴脚本：汉化太鼓之达人官网及相关页面（万代�
 | `dict/dict_*.js`（9 个） | 各分类词库（公告/联动/周边/企业/音游/界面/博客/日期等） |
 | `dict/taiko_dict.js` | 词库合并器：将所有子词典合并为 `window.GLOBAL_DICT` |
 | `images/logo-zh.png` | 页面 Logo 汉化替换图（脚本从云端加载） |
+| `images/taiko.ico` | 脚本图标（Tampermonkey 界面显示，`@icon` 云端引用） |
 
 ## 安装
 
