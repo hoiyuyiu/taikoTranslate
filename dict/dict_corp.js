@@ -9,6 +9,7 @@
   バンダイナムコパスポート: { "zh-CN": "BANDAI NAMCO PASSPORT" },
   バナパスポートカード: { "zh-CN": "BANAPASSPORT卡" },
   バンダイナムコID: { "zh-CN": "BANDAI NAMCO ID" },
+  バンダイナムコグループ: { "zh-CN": "万代南梦宫集团" },
   バンダイナムコエンターテインメント公式サイト: {
     "zh-CN": "万代南梦宫娱乐官网",
   },
@@ -30,10 +31,16 @@
   ファミリーグループ: { "zh-CN": "Family Group" },
   アミューズメントユニット: { "zh-CN": "AMUSEMENT UNIT" },
   "WONDER!スクール": { "zh-CN": "WONDER! SCHOOL" },
+
   コナミアミューズメント: { "zh-CN": "KONAMI Amusement" },
+  コナミアーケードゲームス: { "zh-CN": "KONAMI Arcade Games" },
+
+  "セガ フェイブ": { "zh-CN": "SEGA FAVE" },
   セガロゴ: { "zh-CN": "SEGA Logo" },
   セガ: { "zh-CN": "SEGA" },
   ヤマハ株式会社: { "zh-CN": "YAMAHA株式会社" },
+
+  タイトー: { "zh-CN": "太东(TAITO)" },
 
   スーパーファミコン: { "zh-CN": "超级任天堂(Super Famicom)" },
   ニンテンドー: { "zh-CN": "Nintendo" },
