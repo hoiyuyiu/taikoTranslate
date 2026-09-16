@@ -1,0 +1,23 @@
+name: 自动 bump 版本号
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  bump:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 更新版本号
+        run: |
+          VER="0.1.0.$(TZ=Asia/Shanghai date +%y%m%d).$(TZ=Asia/Shanghai date +%H%M)"
+          sed -i -E "s|^// @version .*|// @version      $VER|" taiko.user.js
+          printf '{"version":"%s"}\n' "$VER" > version.json
+          if git diff --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add taiko.user.js version.json
+          git commit -m "自动 bump 版本号 $VER"
+          git push
